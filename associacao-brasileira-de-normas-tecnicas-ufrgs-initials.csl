@@ -242,7 +242,7 @@
         </names>
       </else-if>
       <else>
-        <names variable="author">
+        <names variable="author" text-case="uppercase">
           <name form="short" delimiter="; " delimiter-precedes-last="never" initialize-with=". " name-as-sort-order="all">
             <name-part name="family"/>
             <name-part name="given"/>
