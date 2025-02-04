@@ -644,7 +644,7 @@
       <!-- em seguida pela data -->
       <key variable="year-suffix"/>
     </sort>
-    <layout prefix="(" suffix=")" delimiter="; " text-case="uppercase">
+    <layout prefix="(" suffix=")" delimiter="; text-case="uppercase">
       <!-- citações entre parênteses, separando mais de um documento com ponto-e-vírgula -->
       <choose>
         <if match="any" disambiguate="true">
